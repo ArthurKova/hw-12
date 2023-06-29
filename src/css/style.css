@@ -1,0 +1,50 @@
+.main-section {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-section__header {
+  font-size: 30px;
+
+  margin: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.main-section__form {
+  font-size: 24px;
+
+  text-align: center;
+}
+
+.onecountry-markup {
+  text-align: center;
+
+  list-style-type: none;
+}
+
+.onecountry-markup__box {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.pagecountry-list {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  list-style-type: none;
+}
+
+.pagecountry-list__country {
+  margin: 15px;
+}
+
+.flag {
+  outline: 1px solid black;
+}

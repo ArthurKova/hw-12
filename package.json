@@ -1,0 +1,25 @@
+{
+  "name": "hw-12",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ArthurKova/hw-12",
+  "description": "hw-12",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /hw-12/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurKova/hw-12.git"
+  },
+  "keywords": [],
+  "author": "Arthur Kovalenko <metaloutcome@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "parcel": "^2.9.1",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-transformer-hbs": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  }
+}
